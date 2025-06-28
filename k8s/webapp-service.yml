@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: webapp
-    version: green  # Initially point to blue
+    version: blue  # Initially point to blue
   ports:
     - port: 80
       targetPort: 3000
